@@ -1,0 +1,952 @@
+/* CSS Code for CBL Website pages
+* created by Juliet Sampson */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+	/* background: url(../images/bridge.jpg) no-repeat;
+  	background-size: 100%;
+  	width: 100%;
+  	height: 831px; */
+}
+
+body {
+
+}
+
+header {
+	height: 130px;
+}
+
+header.landing {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bridge.jpg) no-repeat;
+	/* background-position: center center; */
+    background-size: cover;
+    width: 100%;
+    height: 831px;
+}
+
+main {
+
+}
+
+.row {
+	max-width: 100%;
+}
+h1 {
+	text-align: center;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 3.5em;
+	line-height: 65px;
+	letter-spacing: -0.02em;
+
+}
+
+h2 {
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: bold;
+	font-size: 3em;
+	letter-spacing: -0.02em;
+}
+h3 {
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: bold;
+	font-size: 2em;
+}
+h4 {
+	font-family: Arial, serif;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+p {
+	font-family: Arial, serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 24px;
+	/* or 90% */
+	letter-spacing: -0.02em;
+}
+
+a {
+	letter-spacing: -0.02em;
+	text-decoration: none;
+}
+
+a.active {
+	color: #15A0F5;
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+}
+
+nav {
+	font-family: Arial, serif;
+	position: absolute;
+	width: 100%;
+	height: 75px;
+}
+nav a {
+	/* margin: 2%; */
+	display: inline-block;
+	position: relative;
+
+	color: #000;
+
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 18px;
+	align-items: center;
+	text-align: center;
+	letter-spacing: -0.02em;
+	text-decoration: none;
+}
+
+nav.navigation>a {
+	margin: 40px 20px 0px;
+}
+
+nav.cbl img {
+	margin-top: 20px;
+	width: 146px;
+	height: 51px;
+}
+
+#button-container {
+	margin: 0 auto;
+	width: 1000px;
+	margin-right: 60px;
+}
+
+#button-container>a {
+	margin: 20px 20px 0px;
+	float: right;
+	}
+
+button {
+	background-color: #15A0F5; /* Blue */
+  	border: none;
+  	color: white;
+  	padding: 15px 32px;
+
+  	font-family: Arial;
+  	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	height: 57px;
+}
+
+[type='button'].white-btn {
+	background-color: #fff; /* White */
+	color: black;
+}
+
+[type='button'].border-btn {
+	background-color: #fff; /* White */
+	color: black;
+	border: 1px solid #000000;
+}
+
+footer {
+	background-color: #F0F0F0; /* change to light gray */
+	width: 100%;
+	height: 321px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul a {
+	font-family: Arial;
+	font-size: 12px;
+	font-style: normal;
+
+	color: #000;
+	text-decoration: none;
+	letter-spacing: -0.02em;
+}
+
+input {
+	width: 418px;
+	height: 57px;
+	margin-right: 20px;
+
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 18px;
+	color: #ADADAD;
+	text-indent: 50px;
+
+	border: none;
+}
+
+hr {
+	margin-top: 30px;
+	margin-bottom: 70px;
+}
+
+.contact-us {
+	margin-bottom: 70px;
+}
+
+.contact-us h3 {
+	margin-bottom: 50px;
+
+	font-family: Cormorant Garamond;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	letter-spacing: -0.02em;
+}
+
+.contact-us p {
+	margin-left: 421px;
+	margin-bottom: 50px;
+}
+
+.contact-us a {
+	display: inline-block;
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+	margin-left: 30px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+}
+
+.contact-us img {
+	margin-left: 455px;
+	width: 29.24px;
+	height: 29px;
+	margin-bottom: -7px;
+}
+
+.about-team {
+	margin-bottom: 100px;
+}
+
+.about-team h2 {
+	margin-bottom: 40px;
+}
+
+.about-team h4 {
+	font-family: Cormorant Garamond;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	/* identical to box height */
+	text-align: center;
+	letter-spacing: -0.02em;
+}
+
+.about-team h5 {
+	margin-top: 10px;
+
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 18px;
+	text-align: center;
+	letter-spacing: -0.02em;
+	color: #15A0F5;
+}
+.about-team p {
+	margin: 0px 170px;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: -0.02em;
+}
+
+.about-team img {
+	height: 170px;
+	width: 170px;
+	border-radius: 50%;
+	background: #C4C4C4;
+}
+
+.clip-circle {
+	width: 170px;
+	height: 170px;
+	background: #C4C4C4;
+	clip-path: circle(85px at center);
+	margin-bottom: 30px;
+}
+
+#profile-container {
+	width: 1000px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#bio-container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+#left>h4 {
+	margin-top: 20px !important;
+
+	text-align: left !important;
+	font-family: Arial;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+
+	text-align: center;
+	letter-spacing: -0.02em;
+	color: rgba(0, 0, 0, 0.75);
+}
+
+#bio-image {
+	padding-top: 100px;
+}
+
+#bio-image>img {
+	width: 250px;
+	height: 250px;
+	background: #C4C4C4;
+	border-radius: 50%;
+}
+
+#bio-image.column {
+	margin-left: 100px;
+}
+
+.bio-circle {
+	width: 250px;
+	height: 250px;
+	background: #C4C4C4;
+	clip-path: circle(125px at center);
+}
+
+.apply-founders h2 {
+	text-align: center;
+	margin: 50px 0px;
+}
+
+.apply-founders h3 {
+	font-family: Cormorant Garamond;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	/* identical to box height */
+	letter-spacing: -0.02em;
+
+	color: #15A0F5;
+	margin-bottom: 20px;
+}
+
+.apply-founders p {
+	font-family: Cormorant Garamond;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 23px;
+	/* or 144% */
+	letter-spacing: -0.02em;
+
+	margin-bottom: 75px;
+}
+
+.apply-founders button {
+	width: 244.68px;
+	padding-left: 85px;
+	margin-bottom: 100px;
+
+	font-family: Cormorant Garamond;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: -0.02em;
+}
+
+.blue-banner {
+	margin-top: -30px;
+	background: rgba(106, 202, 252, 0.25);
+	height: 242px;
+	margin-bottom: 100px;
+}
+
+.blue-banner a {
+	display: inline-flex;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	/* identical to box height */
+	text-align: center;
+	letter-spacing: -0.02em;
+
+	color: #000;
+	margin: 0px 50px;
+	margin-top: 80px;
+}
+
+.founders-box {
+	width: 708px;
+	margin: 0 auto;
+}
+
+#timeline {
+	width: 838px;
+	margin: 0 auto;
+}
+
+#timeline>img {
+	margin: 0 14px;
+}
+
+#arrow {
+	padding-bottom: 0px;
+}
+
+#learn-more {
+	width: 190px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 70px;
+
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 18px;
+	align-items: center;
+	letter-spacing: -0.02em;
+	color: #15A0F5;
+}
+
+.collapsible {
+	background-color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.collapsible>.active {
+	display: none;
+}
+
+.extended {
+	display: none;
+  	overflow: hidden;
+}
+
+#extended-row {
+	height: 239px;
+	width: 875px;
+	margin: 0 auto;
+}
+
+#extended-img {
+	width: 167px;
+	height: 239px;
+	margin: 0;
+	margin-right: 112px;
+
+	align-items: center;
+	text-align: center;
+}
+
+#extended-img>.time-circle {
+	margin-left: 40px;
+}
+
+#extended-img>h1 {
+	margin-bottom: -10px;
+
+	font-family: Cormorant Garamond;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 100px;
+	line-height: 121px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: -0.02em;
+
+	color: #000000;
+}
+
+#extended-img>img {
+	margin: 0 auto;
+	align-items: center;
+	text-align: center;
+}
+
+#extended-img>p {
+	align-items: center;
+	text-align: center;
+	width: 126px;
+	margin-left: 40px;
+
+	font-family: Cormorant Garamond;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: -0.02em;
+}
+
+#ext-explain {
+	width: 595px;
+	height: 239px;
+	margin: 0;
+}
+
+#ext-explain>p {
+	padding-top: 65px;
+	width: 595px;
+	height: 239px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 25px;
+	/* or 156% */
+	letter-spacing: -0.02em;
+}
+
+/* Code for the Apply Page - Students */
+
+.apply-students {
+	text-align: center;
+}
+
+.apply-students h2 {
+	margin: 70px 0px;
+}
+
+.apply-students h3 {
+	margin: 20px 0px;
+}
+
+.apply-students h5 {
+	padding-top: 20px;
+	margin-bottom: -10px;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 25px;
+	/* or 156% */
+	text-align: center;
+	letter-spacing: -0.02em;
+}
+
+.apply-students p {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+#timeline2 {
+	width: 838px;
+	margin: 0 auto;
+}
+
+#timeline2>img {
+	margin-bottom: -20px;
+}
+
+#time-col2 {
+	width: 126px;
+	margin: 0;
+	align-items: center;
+	text-align: center;
+}
+
+#time-col2>img {
+	text-align: center;
+}
+
+#time-col2>p {
+	width: 126px;
+
+	align-items: center;
+	text-align: center;
+	font-family: Cormorant Garamond;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: -0.02em;
+}
+
+#arrow-col {
+	width: 30px;
+	margin: 0;
+	padding-top: 20px;
+}
+
+#benefits-row {
+	width: 957px;
+	margin: 0 auto;
+}
+
+#benefits-col {
+	width: 433px;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 100px;
+}
+
+#benefits-col h3 {
+	width: 433px;
+	text-align: center;
+}
+
+#benefits-col>p {
+	text-align: center;
+	width: 433px;
+}
+
+#positions-row
+{
+	width: 561px;
+	margin: 0 auto;
+}
+
+#positions-col {
+	width: 190px;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 100px;
+}
+
+#positions-col>h4 {
+	margin-bottom: -30px;
+	width: 190px;
+	text-align: center;
+}
+
+#positions-col>p {
+	width: 190px;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 18px;
+	align-items: center;
+	letter-spacing: -0.02em;
+	color: #15A0F5;
+}
+
+#positions-col>img {
+	margin-bottom: 30px;
+}
+
+#positions-col>span {
+	white-space: nowrap;
+}
+
+.blue-poly {
+	width: 0px;
+	height: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 8px solid #15A0F5;
+	display: inline-flex;
+	margin-left: 5px;
+	margin-bottom: 1px;
+}
+
+.time-circle {
+	width: 126px;
+	height: 126px;
+	padding: 50px 30px;
+	margin-bottom: 20px;
+	background: rgba(106, 202, 252, 0.26);
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+
+/* Code for the Landing Page */
+
+.top {
+	background-color: #FFF;
+}
+.about {
+	margin-top: 150px;
+	background-color: #FFF;
+	text-align: center;
+}
+
+.about h2 {
+	margin-bottom: 20px;
+}
+
+.about p {
+	font-family: Arial;
+	font-size: 16px;
+}
+#values-container {
+	background-color: #FFF;
+	text-align: center;
+	width: 1009px;
+	height: 344px;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 150px;
+}
+
+.right {
+	display: inline-block;
+}
+
+.right img {
+	width: 476px;
+}
+
+#left {
+	display: inline-block;
+	text-align: left;
+	float: left;
+	width: 500px;
+	top: 0px;
+	left: 0px;
+	margin: 30px 0px 0px;
+}
+#left>p {
+	font-family: Arial;
+	font-size: 16px;
+	width: 500px;
+	margin: 40px 0px;
+}
+
+.why {
+	text-align: center;
+	margin-top: 200px;
+
+}
+#container {
+	width: 1000px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 200px;
+}
+.column {
+	float: left;
+  	width: 226px;
+  	margin: 0px 53px;
+}
+
+.column h3{
+	text-align: left;
+	margin: 30px 0px 10px;
+}
+
+.column p {
+	width: 215px;
+	text-align: left;
+	margin: 40px 0px 10px;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 23px;
+	/* or 144% */
+	letter-spacing: -0.02em;
+}
+
+#links.column {
+	width: 150px;
+	margin: 0px 40px 0px 0px;
+}
+
+#links.column h4 {
+	margin-bottom: 15px;
+}
+
+#links.column li {
+	margin: 10px 0px;
+}
+
+.row:after {
+	content: "";
+  	display: table;
+  	clear: both;
+}
+
+#exp>img {
+	width: 123px;
+	height: 123px;
+}
+#net>img {
+	width: 93px;
+	height: 93px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+}
+#credit>img {
+	width: 98px;
+	height: 98px;
+	padding-bottom: 20px;
+	margin-top: 6px;
+}
+
+#credit {
+
+}
+
+.subscribe {
+	background-color: #000;
+	width: 100%;
+	height: 534px;
+	text-align: center;
+}
+
+#subscribe-box {
+	width: 619px;
+	height: 297px;
+	margin: 0 auto;
+	padding-top: 118.5px;
+}
+
+#subscribe-box>p {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 18px;
+	text-align: center;
+	letter-spacing: -0.02em;
+	margin-top: 30px;
+	margin-bottom: 70px;
+}
+
+.partners {
+	background-color: #FFF;
+	text-align: center;
+	width: 100%;
+	padding: 40px 0px;
+}
+
+.partners img {
+	display: inline-block;
+	margin: 20px 50px;
+}
+
+#social {
+	margin: 20px 20px 0px;
+	float: right;
+}
+
+#social-container {
+	margin: 0 auto;
+	width: 85%;
+}
+
+#social img {
+	width: 29.24px;
+	height: 29px;
+}
+
+.copyright {
+	
+}
+
+#cc {
+	width: 179px;
+	height: 48px;
+	padding-bottom: 7px;
+}
+#seas {
+	width: 199px;
+	height: 24px;
+	padding-bottom: 18px;
+}
+#barnard {
+	width: 132px;
+	height: 18px;
+	padding-bottom: 21px;
+}
+#gs {
+	width: 142px;
+	height: 36px;
+	padding-bottom: 13px;
+}
+#cbs {
+	width: 137px;
+	height: 68px;
+	padding-bottom: 2px;
+}
+#nav2 {
+	width: 83%;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+
+#intro{
+	position: relative;
+    margin: 0 auto;
+    padding-top: 200px;
+    padding-left: 200px;
+    z-index: 2 !important;
+    font-weight: bold;
+}
+
+#intro>p{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	position: relative;
+	width: 492px;
+	height: 102px;
+
+	font-family: Arial, serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 24px;
+	/* or 90% */
+	letter-spacing: 0.02em;
+
+	color: #FFFFFF;
+}
+
+#intro>h1 {
+	position: relative;
+	width: 392px;
+	height: 130px;
+
+	font-family: 'Cormorant Garamond', serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 54px;
+	line-height: 65px;
+	letter-spacing: -0.02em;
+	text-align: left;
+
+	color: #FFFFFF;
+}
